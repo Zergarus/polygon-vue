@@ -9,6 +9,7 @@ export interface Message {
   content: string;
   authorId: string;
   authorName: string;
+  authorAvatar?: string;
   timestamp: Date;
   channelId?: string; // Пригодится потом для разных каналов
 }
